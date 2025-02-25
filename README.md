@@ -1,5 +1,9 @@
 # ECommerce-Follow-Along
 
+## project Overview
+
+An eCommerce platform built with MERN stack(MongoDB,Express.js,React.js,andNode.js). This platform provides functionalities for product listings, user authentication, shopping cart management, order processing, and more.
+
 ## Features
 
 - **User Authentication**: Users can sign up, log in, and log out. Passwords are securely stored.
