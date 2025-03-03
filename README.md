@@ -21,3 +21,15 @@ This is a full-stack eCommerce platform built with the MERN stack (MongoDB, Expr
 - **Payment Gateway**: Stripe / PayPal (can be swapped out depending on preference)
 - **File Storage**: Cloudinary (for storing product images)
 - **Others**: Axios (for API requests), bcrypt (for password hashing), dotenv (for environment variables)
+
+
+
+# Milestone-1
+
+* Completed foundation for E-Commerce Application
+
+# Milestone-2
+
+* Separate folders for frontend and backend.
+* A functional Login Page in the frontend.
+* Completed setting for tailwind-css
