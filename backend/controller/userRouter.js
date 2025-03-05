@@ -28,7 +28,7 @@ userRouter.post("/signup",uploadUserImage.single("image"),async(request, respons
     }
 })
 
-userModel.post("/login", async(request, response) => {
+userRouter.post("/login", async(request, response) => {
     try {
         const {email, password} = request.body;
         if(!email || !password) {
