@@ -33,3 +33,10 @@ This is a full-stack eCommerce platform built with the MERN stack (MongoDB, Expr
 * Separate folders for frontend and backend.
 * A functional Login Page in the frontend.
 * Completed setting for tailwind-css
+
+# Milestone-3
+
+* Organized the **backend folder structure** for scalability.
+* Connected the **server to MongoDB** using mongoose.
+* implemented **erroe-handling middleware** for API stability.
+
