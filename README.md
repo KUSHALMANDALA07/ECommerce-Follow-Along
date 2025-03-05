@@ -22,21 +22,26 @@ This is a full-stack eCommerce platform built with the MERN stack (MongoDB, Expr
 - **File Storage**: Cloudinary (for storing product images)
 - **Others**: Axios (for API requests), bcrypt (for password hashing), dotenv (for environment variables)
 
+## **Project Milestones**
 
-
-# Milestone-1
+# Milestone-1: **laying the Foundation**
 
 * Completed foundation for E-Commerce Application
 
-# Milestone-2
+# Milestone-2: **Structuring the Project & UI Setup**
 
 * Separate folders for frontend and backend.
 * A functional Login Page in the frontend.
 * Completed setting for tailwind-css
 
-# Milestone-3
+# Milestone-3: **Backend Configuration & Database Connection**
 
 * Organized the **backend folder structure** for scalability.
 * Connected the **server to MongoDB** using mongoose.
 * implemented **erroe-handling middleware** for API stability.
 
+# Milestone-4 : **User Management & File Handling**
+
+* Created the **user Model** in Mongoose to define user data structure.
+* Developed the **User Controller** to manage user authentication (signup, login).
+* Implemented **Multer for file handling**, allowing user profile and product image uploads.
