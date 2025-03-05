@@ -1,7 +1,6 @@
 const express = require('express');
-
 const app = express();
-
+const connect = require('./mongoDB');
 
 app.get("/",(request,response) => {
     try {
@@ -11,10 +10,11 @@ app.get("/",(request,response) => {
     }
 })
 
-app.listen(3000, () => {
+app.listen(8000, async() => {
     try {
+        await connect();
         console.log('Connected to server successfully');
     } catch (error) {
-        console.log(error);
+        console.log("server not connected",error);
     }
 })
