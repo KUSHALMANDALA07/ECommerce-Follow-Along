@@ -26,13 +26,17 @@ This is a full-stack eCommerce platform built with the MERN stack (MongoDB, Expr
 
 # Milestone-1: **laying the Foundation**
 
-* Completed foundation for E-Commerce Application
+* Initialized the project structure for both frontend and backend.
+* Installed necessary dependencies for React , Node.js , and Express.
+* Set up a basic server in **Node.js** using **Express.js**.
+* Configured **environment variable** for secure credentials.
 
 # Milestone-2: **Structuring the Project & UI Setup**
 
-* Separate folders for frontend and backend.
-* A functional Login Page in the frontend.
-* Completed setting for tailwind-css
+* **Separated frontend and backend folders** for modular development.
+* Created a **functional login page** in the frontend using React.js.
+* Installed and configured **Tailwind css** for responsive UI design.
+
 
 # Milestone-3: **Backend Configuration & Database Connection**
 
@@ -47,9 +51,11 @@ This is a full-stack eCommerce platform built with the MERN stack (MongoDB, Expr
 * Implemented **Multer for file handling**, allowing user profile and product image uploads.
 
 # Milestone-5 : **User registration & File Handling**
+
 * Created the **Sign up page** in react and added code for signup backend also.
 * Added the **Sign up page** validation in (signup, login).
 
 # Milestone-6 : **Password Hashing By Usoing Bcryptjs**
+
 * Added the **Password encryption** in backend signup page.
 * Added comparision for checking password is correct or not in the login backend.
