@@ -45,3 +45,7 @@ This is a full-stack eCommerce platform built with the MERN stack (MongoDB, Expr
 * Created the **user Model** in Mongoose to define user data structure.
 * Developed the **User Controller** to manage user authentication (signup, login).
 * Implemented **Multer for file handling**, allowing user profile and product image uploads.
+
+# Milestone-5 : **User registration & File Handling**
+* Created the **Sign up page** in react and added code for signup backend also.
+* Added the **Sign up page** validation in (signup, login).
