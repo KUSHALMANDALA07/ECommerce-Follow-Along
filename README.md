@@ -49,3 +49,7 @@ This is a full-stack eCommerce platform built with the MERN stack (MongoDB, Expr
 # Milestone-5 : **User registration & File Handling**
 * Created the **Sign up page** in react and added code for signup backend also.
 * Added the **Sign up page** validation in (signup, login).
+
+# Milestone-6 : **Password Hashing By Usoing Bcryptjs**
+* Added the **Password encryption** in backend signup page.
+* Added comparision for checking password is correct or not in the login backend.
