@@ -59,3 +59,8 @@ This is a full-stack eCommerce platform built with the MERN stack (MongoDB, Expr
 
 * Added the **Password encryption** in backend signup page.
 * Added comparision for checking password is correct or not in the login backend.
+
+# Milestone-7 : **encrypting passwords**
+
+ *Understand how to validate user credentials during login.
+ *Learn how to compare the encrypted password with the user’s input.
