@@ -8,16 +8,16 @@ import AllRouting from './AllRouting'
 import Navbar from './components/Navbar'
 
 function App() {
-  
 
   return (
     <>
-      <BrowserRouter>
-       <Navbar/>
-       <AllRouting/>
-      </BrowserRouter>
+    <BrowserRouter>
+      <Navbar/>
+      <AllRouting/>
+    </BrowserRouter>
+      
     </>
   )
-}1
+}
 
 export default App

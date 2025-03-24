@@ -1,70 +1,76 @@
-# ECommerce-Follow-Along
+# Ecommerce-Follow-Along
 
-This is a full-stack eCommerce platform built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides features like user authentication, product catalog, shopping cart, and order management.
+## Project Overview
+
+*Ecommerce-Follow-Along* is a hands-on project designed to guide developers through building an ecommerce platform step-by-step. This project helps learners gain practical experience with front-end and back-end technologies commonly used in ecommerce development, such as HTML, CSS, JavaScript, Node.js, Express, and MongoDB.
+
+Whether you're a beginner or intermediate developer, this project will help you understand the key components of building a fully functional ecommerce website, including user authentication, product management, and order processing.
 
 ## Features
 
-- **User Authentication**: Secure sign-up, login, and session management using JWT (JSON Web Tokens).
-- **Product Catalog**: Users can browse and search through a list of available products.
-- **Shopping Cart**: Users can add products to their cart, modify the quantity, and proceed to checkout.
-- **Order Management**: Users can view their order history and order details.
-- **Admin Panel**: Admins can manage products, users, and orders.
-- **Payment Integration**: Stripe or PayPal integration for secure payments (can be customized as needed).
-- **Responsive Design**: The website is mobile-friendly and responsive across different screen sizes.
+- *User Authentication*: Register, login, and manage user sessions.
+- *Product Listings*: Add, edit, and remove products.
+- *Shopping Cart*: Add items to the cart, view cart details, and proceed to checkout.
+- *Order Management*: Process orders, update order status, and view order history.
+- *Admin Panel*: Admin users can manage users, products, and orders.
 
 ## Tech Stack
 
-- **Frontend**: React.js, React Router, Redux (for state management)
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: JWT (JSON Web Token) for secure user authentication
-- **Payment Gateway**: Stripe / PayPal (can be swapped out depending on preference)
-- **File Storage**: Cloudinary (for storing product images)
-- **Others**: Axios (for API requests), bcrypt (for password hashing), dotenv (for environment variables)
+- *Frontend*: HTML, CSS, JavaScript, React (optional)
+- *Backend*: Node.js, Express
+- *Database*: MongoDB
+- *Authentication*: JWT (JSON Web Tokens) for secure authentication
+- *Payment Gateway Integration*: Stripe (optional)
 
-## **Project Milestones**
+  # *Milestone 1: Laying the foundation*
+  *Completed foundation for E-commerce Application
+  * Installed necessary dependencies for React , Node.js , and Express.
+  * Set up a basic server in **Node.js** using **Express.js**.
+  * Configured **environment variable** for secure credentials.
 
-# Milestone-1: **laying the Foundation**
+  # *Milestone 2: Structuring the project & UI setup*
+  *Separate folders for frontend and backend.
+  *A functional Login Page in the frontend.
+  *Completed setting for tailwind-css
 
-* Initialized the project structure for both frontend and backend.
-* Installed necessary dependencies for React , Node.js , and Express.
-* Set up a basic server in **Node.js** using **Express.js**.
-* Configured **environment variable** for secure credentials.
+  # *Milestone3: Backend configuration & database connection*
+  * Organized the backend folder structure for scalability.
+  * Connected the server to MongoDb using Mongoose.
+  * Implemented error-handling middleware for API stability.
 
-# Milestone-2: **Structuring the Project & UI Setup**
+  # *Milestone 4: User Management and file handling*
+  * Created the *User Model* in Mongoose to define user data structure.
+  * Develop the *User Controller* to manage user authentication (signup,login).
+  * Implementing *Multer for file handling*,allowing user profile and product image uploads.
+  
+  # *Milestone 5: User registration and file handling*
+  Created the **Sign up page* in React and added code for signup backend also.
+  Added the **Sign up page* validation in (signup, login).
 
-* **Separated frontend and backend folders** for modular development.
-* Created a **functional login page** in the frontend using React.js.
-* Installed and configured **Tailwind css** for responsive UI design.
+  # *Milestone 6: Password Hashing By Using Bcryptjs*
+  Added the **password encryption* in backend signup page.
+  *Added comparision for checking password is correct or not in login backend.
 
+  # *Milestone 7:Password decrypt by using bcryptjs*
+  Added the **Password authentication* in backend login page.
+  *Here we are first getting the hashed password from db searchrd by email and then comparing the input body password with hashed password by compare method in bcryptjs.
 
-# Milestone-3: **Backend Configuration & Database Connection**
+  # *Milestone 8:Product page in frontend*
+  Added the **Product page* in Frontend as a Homepage.
 
-* Organized the **backend folder structure** for scalability.
-* Connected the **server to MongoDB** using mongoose.
-* implemented **erroe-handling middleware** for API stability.
+  # **Milestone 9:Created form for product upload **
+  Created the **AddProducts* page in frontend.
+  *Add form validation in AddProducts page.
 
-# Milestone-4 : **User Management & File Handling**
+  # *Milestone 10:Created schema product upload*
+  Created **ProductModel* in backend .
+  Created the **productRouter* page in Backend.
+  *Handeled file uploads by multer inside middleware multer.
+  
+  # *Milestone 11:Created home page for product*
+  Created **Home page* for dynamic products presentation.
+  added the **backend* part for handelling products(created endpoint to get products).
 
-* Created the **user Model** in Mongoose to define user data structure.
-* Developed the **User Controller** to manage user authentication (signup, login).
-* Implemented **Multer for file handling**, allowing user profile and product image uploads.
-
-# Milestone-5 : **User registration & File Handling**
-
-* Created the **Sign up page** in react and added code for signup backend also.
-* Added the **Sign up page** validation in (signup, login).
-
-# Milestone-6 : **Password Hashing By Usoing Bcryptjs**
-
-* Added the **Password encryption** in backend signup page.
-* Added comparision for checking password is correct or not in the login backend.
-
- # Milestone-7 : **Password Decrypt By Using Bcryptjs**
-
- *Added the **Password authentication** in backend login page.
- *Here we are first getting the hashed password from db serched by email and then comparing the input body password with hashed password by compare method in bcryptjs.
-
- # Milestone-8 : **Product Page In Frontend**
-
- *Added the **Product Page** in Frontend as a Homepage.
+  # *Milestone 12:Showing product according to the user*
+  Created **Product page* for dynamic product according to the user mail.
+  *Created backend for specific user products.

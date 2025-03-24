@@ -1,24 +1,34 @@
-const express = require('express');
+const express = require("express")
 const app = express();
-const connect = require('./mongoDB');
-const userRouter = require('./controller/userRouter');
+app.use(express.json());
+const mongoose = require("mongoose");
+const dotenv = require("dotenv");
+dotenv.config();
+const cors = require("cors");
+app.use(cors());
 
-app.get("/",(request,response) => {
+const PORT =process.env.PORT || 8080;
+const userRouter = require("./controller/userRouter");
+const productRouter = require("../controller/productRouter");
+
+ 
+app.get("/",(req,res)=>{
     try {
-        response.status(200).send({message:"This is e-commerce code along backend"});
+        res.status(200).send({mgs:"This is e-commerce code along backend"});
     } catch (error) {
-        response.status(500).send({message:"error occured"});
+        res.status(500).send({message:"error occured"});
     }
 })
 
+app.use("/user",userRouter)
 
-app.use("/user",userRouter);
+app.use("/product",productRouter);
 
-app.listen(8000, async() => {
+app.listen(8080,async()=>{
     try {
         await connect();
-        console.log('Connected to server successfully');
+        console.log("Server connected successfully");
     } catch (error) {
-        console.log("server not connected",error);
+        console.log("Error",error)
     }
 })
