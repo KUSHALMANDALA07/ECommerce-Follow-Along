@@ -29,9 +29,9 @@ Whether you're a beginner or intermediate developer, this project will help you 
   * Configured **environment variable** for secure credentials.
 
   # *Milestone 2: Structuring the project & UI setup*
-  *Separate folders for frontend and backend.
-  *A functional Login Page in the frontend.
-  *Completed setting for tailwind-css
+  * Separate folders for frontend and backend.
+  * A functional Login Page in the frontend.
+  * Completed setting for tailwind-css
 
   # *Milestone3: Backend configuration & database connection*
   * Organized the backend folder structure for scalability.
