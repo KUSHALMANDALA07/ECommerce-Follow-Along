@@ -11,6 +11,7 @@ const Login = () => {
         setLoginData({...loginData,[e.target.name]:e.target.value})
     }
 
+
    async function handleLogin(event){
         event.preventDefault();
         if(loginData.email == ""){
@@ -31,6 +32,7 @@ const Login = () => {
             console.log(error);
             alert("Someting went wrong while logging in");
         }
+
 
         
     }

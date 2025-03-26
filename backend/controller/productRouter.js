@@ -6,7 +6,7 @@ const productModel = require("../models/productModel");
 
 const productImages = require("../middleware/multer");
 
-const jwt = require("jsonwebtoken");
+const jwt = require('jsonwebtoken');
 
 productRouter.post("/addproduct",async(req,res,next)=>{
     productImages.array("images",6)(req,res,(err)=>{
@@ -19,7 +19,7 @@ productRouter.post("/addproduct",async(req,res,next)=>{
     try {
         const {title,description,price} = req.body;
         const auth = req.headers.authorization;
-        const decoded = jwt.verify(auth,process.env.JWT_PASSWORD);
+        const decoded = jwt.verify(auth, process.env.JWT_PASSWORD);
         if(!title || !description || !price){
             return res.status(404).send({msg:"Please fill all fields"});
         }
