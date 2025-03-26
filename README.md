@@ -78,3 +78,9 @@ Whether you're a beginner or intermediate developer, this project will help you 
   # *Milestone 13:Created Product Update*
   * Created **Product Update Endpoint** for Updating products.
   * Created form for updating data in frontend and created autofill function.
+
+  # *Milestone 14:Created Product Delete*
+  * Created **Product Delete Endpoint** for Updating products.
+  * Created form for Deleting product in frontend.
+
+  

@@ -45,7 +45,7 @@ userRouter.post("/signup", async (req, res) => {
             });
             const token = jwt.sign({ name:newUser.name,email:newUser.email,id:newUser.id }, process.env.JWT_PASSWORD);
 
-            return res.status(201).json({ message: "User registered successfully", token:token });
+            return res.status(201).json({ message: "User registered successfully", token:token ,name,id:newUser.id });
         });
     } catch (error) {
         console.error("Signup Error:", error);
