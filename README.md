@@ -58,7 +58,7 @@ Whether you're a beginner or intermediate developer, this project will help you 
   # *Milestone 8:Product page in frontend*
   Added the **Product page* in Frontend as a Homepage.
 
-  # **Milestone 9:Created form for product upload **
+  # *Milestone 9:Created form for product upload*
   Created the **AddProducts* page in frontend.
   *Add form validation in AddProducts page.
 
@@ -74,3 +74,7 @@ Whether you're a beginner or intermediate developer, this project will help you 
   # *Milestone 12:Showing product according to the user*
   Created **Product page* for dynamic product according to the user mail.
   *Created backend for specific user products.
+
+  # *Milestone 13:Created Product Update*
+  Created **Product Update Endpoint** for Updating products.
+  Created form for updating data in frontend and created autofill function.

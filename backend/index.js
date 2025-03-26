@@ -1,10 +1,21 @@
 const express = require("express")
+
 const app = express();
+
 app.use(express.json());
+
 const mongoose = require("mongoose");
+
 const dotenv = require("dotenv");
+
 dotenv.config();
+
+const jwt = require("jsonwebtoken");
+
+const userModal = require("./model/userModal");
+
 const cors = require("cors");
+
 app.use(cors());
 
 const PORT =process.env.PORT || 8080;
@@ -22,7 +33,23 @@ app.get("/",(req,res)=>{
 
 app.use("/user",userRouter)
 
-app.use("/product",productRouter);
+app.use("/product",async(req,res,next)=>{
+    try {
+        const auth = req.headers.authorization;
+        if(!auth){
+            return res.status(401).send({message:"Please login"});
+        }
+        const decoded = jwt.verify(auth,process.env.JWT_PASSWORD);
+        const user = await userModal.findOne({_id:decoded.id});
+        if(!user){
+            return res.status(401).send({message:"Please register first"});
+        }
+        console.log(decoded);
+        next();
+    } catch (error) {
+        return res.status(500).send({message:"Something went wrong"});
+    }
+});
 
 app.listen(8080,async()=>{
     try {
