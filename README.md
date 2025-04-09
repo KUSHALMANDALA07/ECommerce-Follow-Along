@@ -89,3 +89,7 @@ Whether you're a beginner or intermediate developer, this project will help you 
   # *Milestone 16: Created ProductDetails Page*
   * Created **Product Details** for showing full product details in details page.
   * Added Add to cart button with quantity selection.
+
+  # *Milestone 17: CRUD for cart*
+  * created endpoints in backend **CURD** for handling cart.
+  * Handeled quality for product in cart.
