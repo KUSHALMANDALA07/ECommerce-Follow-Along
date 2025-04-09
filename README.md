@@ -91,5 +91,5 @@ Whether you're a beginner or intermediate developer, this project will help you 
   * Added Add to cart button with quantity selection.
 
   # *Milestone 17: CRUD for cart*
-  * created endpoints in backend **CURD** for handling cart.
+  * created endpoints in backend ***CURD*** for handling cart.
   * Handeled quality for product in cart.
