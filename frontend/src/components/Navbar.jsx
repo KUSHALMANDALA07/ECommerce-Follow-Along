@@ -21,10 +21,15 @@ const Navbar = () => {
         </div>
         <div>
             <div
-                onClick={()=>{
-                    navigate("/myproducts");
-                }}
-                >My Products</div>
+            onClick={()=>{
+                navigate("/myproducts");
+            }}
+            >My Products</div>
+        </div>
+        <div>
+            <div
+            onClick={()=>navigate("/cart")}
+            >Cart</div>
         </div>
         <div>
         <div

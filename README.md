@@ -93,3 +93,7 @@ Whether you're a beginner or intermediate developer, this project will help you 
   # *Milestone 17: CRUD for cart*
   * created endpoints in backend ***CURD*** for handling cart.
   * Handeled quality for product in cart.
+
+  # *Milestone 18: Frontend for cart page*
+  * Created cart page in frontend.
+  * handled cart operations from frontend. 
