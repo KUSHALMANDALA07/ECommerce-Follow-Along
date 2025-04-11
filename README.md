@@ -23,7 +23,7 @@ Whether you're a beginner or intermediate developer, this project will help you 
 - *Payment Gateway Integration*: Stripe (optional)
 
   # *Milestone 1: Laying the foundation*
-  *Completed foundation for E-commerce Application
+  * Completed foundation for E-commerce Application
   * Installed necessary dependencies for React , Node.js , and Express.
   * Set up a basic server in **Node.js** using **Express.js**.
   * Configured **environment variable** for secure credentials.
@@ -97,3 +97,6 @@ Whether you're a beginner or intermediate developer, this project will help you 
   # *Milestone 18: Frontend for cart page*
   * Created cart page in frontend.
   * handled cart operations from frontend. 
+
+  # *Milestone 19: Backend endpoint for cart item quantity*
+  * created put request for updating quantity for cart item.
