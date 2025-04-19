@@ -109,3 +109,7 @@ Whether you're a beginner or intermediate developer, this project will help you 
   * Created route for add Address Page in Frontend.
   * Create form for adding address.
   * stored address using useState Hook.
+
+  # *Milestone 22: Created Backend for Address and attached with frontend*
+  * Created backend endpoint for handeling address.
+  * Added backend endpoint with frontend.
