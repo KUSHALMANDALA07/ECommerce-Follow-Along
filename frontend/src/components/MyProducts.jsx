@@ -6,13 +6,13 @@ import MyProductCard from './MyProductCard';
 const MyProducts = () => {
     const [products,setProducts] = useState([]);
     function getData(){
-        axios.get("https://localhost:8080/allproducts")
+        axios.get("http://localhost:8080/allproducts")
         .then((data)=>{
             console.log(data);
 
-            const userData = JSON.parse(localStorage.getItem("follow-along-auth-token-user-name-id"));
+            const userData = JSON.parse(localStorage.getItem("follow-along-auth-token-user-name-id"))
             const newData = data.data.products.filter((ele)=>{
-                return ele.userId == userData.id
+                return ele.userId == userData.id; 
             })
             setProducts(newData);
         }).catch((err)=>{
@@ -39,4 +39,4 @@ const MyProducts = () => {
   )
 }
 
-export default MyProducts
+export default MyProducts;

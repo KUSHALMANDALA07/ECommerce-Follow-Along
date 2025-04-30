@@ -124,3 +124,8 @@ Whether you're a beginner or intermediate developer, this project will help you 
   * Displayed All address in address selection page.
   * Displayed total price in cart.
   * Added place order button at the bottom.
+
+  # *Milestone 25: worked on order backend and email service*
+  * Created endpoint for order.
+  * Implemented mail service from nodemailer.
+  * Handled address for the delivery.
