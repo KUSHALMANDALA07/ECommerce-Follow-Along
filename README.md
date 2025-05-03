@@ -133,3 +133,6 @@ Whether you're a beginner or intermediate developer, this project will help you 
   # *Milestone 26: worked on order backend and email service*
   * Implemented mail with nodemailer.
   * Sending order details to user via mail.
+
+  # *Milestone 27: worked on frontend for my order page*
+  * Created get request to get request my order
