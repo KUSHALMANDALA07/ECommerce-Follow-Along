@@ -24,8 +24,6 @@ app.use(cors());
 
 const MONGO_PASSWORD = process.env.MONGO_PASSWORD;
 
-console.log(MONGO_PASSWORD)
-
 const PORT = process.env.PORT || 8080;
 
 const useRouter = require("./controller/userRouter");
