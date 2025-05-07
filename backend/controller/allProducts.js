@@ -1,23 +1,23 @@
 const express = require("express");
 
-const allProductsRouter = express.Router();
+const allProductRouter = express.Router();
 
 const productModel = require("../models/productModel");
 
-allProductsRouter.get("/", async (req, res) => {
+allProductRouter.get("/",async(req,res)=>{
     try {
-        const products = await productModel.find({});
-        return res.status(200).send({message:"sucessful",products:products});
+        const products = await productModel.find();
+        return res.status(200).send({message:"sucessful",products:products})
     } catch (error) {
         return res.status(500).send({message:"something went wrong"});
     }
 })
 
-allProductsRouter.get("/:id", async (req, res) => {
+allProductRouter.get("/:id",async(req,res)=>{
     try {
         const {id} = req.params;
-        if (!id) {
-            return res.status(400).send({message:"Please provide id"});
+        if(!id){
+            return res.status(400).send({message:"please provide id"});
         }
         const product = await productModel.findOne({_id:id});
         return res.status(200).send({message:"sucessful",product:product});
@@ -26,4 +26,4 @@ allProductsRouter.get("/:id", async (req, res) => {
     }
 })
 
-module.exports = allProductsRouter; 
+module.exports = allProductRouter;
