@@ -146,3 +146,7 @@ Whether you're a beginner or intermediate developer, this project will help you 
 
   # *Milestone 30: Payment*
   * Worked on payment page.
+
+  # *Milestone 31: Redux Implementation*
+  * Implemented Redux in frontend.
+  * Used redux in user details page.
