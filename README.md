@@ -135,11 +135,14 @@ Whether you're a beginner or intermediate developer, this project will help you 
   * Sending order details to user via mail.
 
   # *Milestone 27: worked on frontend for my order page*
-  * Created get request to get request my order
+  * Created get request to get request my order.
 
   # *Milestone 28: Cancel order payment*
-  * Added cancle order functionality
-  * Created endpoint for payment id
+  * Added cancle order functionality.
+  * Created endpoint for payment id.
 
   # *Milestone 29: Payment*
-  * Integrated dummy payment
+  * Integrated dummy payment.
+
+  # *Milestone 30: Payment*
+  * Worked on payment page.
