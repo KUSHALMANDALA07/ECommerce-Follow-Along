@@ -153,3 +153,7 @@ Whether you're a beginner or intermediate developer, this project will help you 
 
   # *Milestone 32: Redux Implementation*
   * Implemented Redux in frontend.
+
+  # *Milestone 33: setting up token in cookies*
+  * Implemented cookies auth by using cookie-parser npm package.
+  * added cookie by login page.
